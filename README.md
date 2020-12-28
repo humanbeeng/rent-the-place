@@ -48,3 +48,12 @@ npm run server
 cd frontend
 npm run build
 ```
+## Environment Variable
+In order to run the project, you need to create a .env file in the root dir of the project.
+
+```
+MONGO_URI=
+NODE_ENV=development
+PORT=5000
+JWT_TOKEN=abc123
+```
